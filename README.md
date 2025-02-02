@@ -1,6 +1,4 @@
-## Sistema de Gestión de Pacientes
-
-# Clínica Online - Next.js Project
+# Sistema de Gestión de Pacientes - Next.js Project
 
 Este proyecto está desarrollado con **Next.js** utilizando **create-next-app**.
 
