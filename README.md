@@ -1,11 +1,14 @@
 ## Sistema de Gestión de Pacientes
 
-Este proyecto está desarrollado con Next.js utilizando create-next-app.
+# Clínica Online - Next.js Project
 
-🚀 Getting Started
+Este proyecto está desarrollado con **Next.js** utilizando **create-next-app**.
+
+## 🚀 Getting Started
 
 Para iniciar el servidor de desarrollo, ejecuta uno de los siguientes comandos:
 
+```bash
 npm run dev
 # o
 yarn dev
@@ -13,29 +16,29 @@ yarn dev
 pnpm dev
 # o
 bun dev
+```
 
-Abre http://localhost:3000 en tu navegador para ver la aplicación en acción.
+Abre [http://localhost:3000](http://localhost:3000) en tu navegador para ver la aplicación en acción.
 
-Puedes empezar a editar la página modificando el archivo app/page.tsx. La página se actualizará automáticamente con los cambios que realices.
+Puedes empezar a editar la página modificando el archivo `app/page.tsx`. La página se actualizará automáticamente con los cambios que realices.
 
-🖋️ Tipografía
+## 🖋️ Tipografía
 
-Este proyecto utiliza next/font para optimizar y cargar automáticamente Geist, una nueva familia tipográfica de Vercel.
+Este proyecto utiliza `next/font` para optimizar y cargar automáticamente **Geist**, una nueva familia tipográfica de Vercel.
 
-📚 Learn More
+## 📚 Learn More
 
-Para aprender más sobre Next.js, consulta los siguientes recursos:
+Para aprender más sobre **Next.js**, consulta los siguientes recursos:
 
-Documentación de Next.js - Aprende sobre las características y API de Next.js.
+- [Documentación de Next.js](https://nextjs.org/docs) - Aprende sobre las características y API de Next.js.
+- [Learn Next.js](https://nextjs.org/learn) - Un tutorial interactivo sobre Next.js.
+- [Repositorio en GitHub de Next.js](https://github.com/vercel/next.js) - Tus aportes y feedback son bienvenidos.
 
-Learn Next.js - Un tutorial interactivo sobre Next.js.
+## 📦 Deployment
 
-Repositorio en GitHub de Next.js - Tus aportes y feedback son bienvenidos.
+La forma más sencilla de desplegar tu aplicación Next.js es usando la plataforma **Vercel**, creada por los desarrolladores de Next.js.
 
-📦 Deployment
+Consulta la [documentación de despliegue de Next.js](https://nextjs.org/docs/deployment) para más detalles.
 
-La forma más sencilla de desplegar tu aplicación Next.js es usando la plataforma Vercel, creada por los desarrolladores de Next.js.
-
-Consulta la documentación de despliegue de Next.js para más detalles.
 
 /* This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app). */
