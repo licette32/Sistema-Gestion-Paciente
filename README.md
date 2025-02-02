@@ -18,22 +18,4 @@ bun dev
 
 Abre [http://localhost:3000](http://localhost:3000) en tu navegador para ver la aplicación en acción.
 
-Puedes empezar a editar la página modificando el archivo `app/page.tsx`. La página se actualizará automáticamente con los cambios que realices.
 
-## 🖋️ Tipografía
-
-Este proyecto utiliza `next/font` para optimizar y cargar automáticamente **Geist**, una nueva familia tipográfica de Vercel.
-
-## 📚 Learn More
-
-Para aprender más sobre **Next.js**, consulta los siguientes recursos:
-
-- [Documentación de Next.js](https://nextjs.org/docs) - Aprende sobre las características y API de Next.js.
-- [Learn Next.js](https://nextjs.org/learn) - Un tutorial interactivo sobre Next.js.
-- [Repositorio en GitHub de Next.js](https://github.com/vercel/next.js) - Tus aportes y feedback son bienvenidos.
-
-## 📦 Deployment
-
-La forma más sencilla de desplegar tu aplicación Next.js es usando la plataforma **Vercel**, creada por los desarrolladores de Next.js.
-
-Consulta la [documentación de despliegue de Next.js](https://nextjs.org/docs/deployment) para más detalles.
