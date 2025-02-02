@@ -37,6 +37,3 @@ Para aprender más sobre **Next.js**, consulta los siguientes recursos:
 La forma más sencilla de desplegar tu aplicación Next.js es usando la plataforma **Vercel**, creada por los desarrolladores de Next.js.
 
 Consulta la [documentación de despliegue de Next.js](https://nextjs.org/docs/deployment) para más detalles.
-
-
-/* This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app). */
