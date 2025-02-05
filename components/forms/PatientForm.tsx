@@ -9,7 +9,7 @@ import CustomFormField from "../CustomFormField"
 import SubmiButton from "../SubmitButton"
 import { useState } from "react"
 import { UserFormValidation } from "@/lib/validation"
-import { useRouter } from "next/router"
+import { useRouter } from "next/navigation"
 import { createUser } from "@/lib/actions/patient.actions"
 
 
@@ -67,7 +67,7 @@ const PatientForm = () => {
         <CustomFormField
           fieldType ={FormFieldType.INPUT} 
           control={form.control}
-          name="Nombre"
+          name="name"
           label="Nombre y Apellido"
           placeholder="Juan Casas"
           iconSrc="/assets/icons/user.svg"
@@ -89,7 +89,7 @@ const PatientForm = () => {
           control={form.control}
           name="phone"
           label="Teléfono"
-          placeholder="(549) 123-4567"
+          placeholder="(555) 123-4567"
         />
 
         <SubmiButton isLoading={isLoading}>Acceder</SubmiButton>
@@ -98,4 +98,4 @@ const PatientForm = () => {
   )
 }
 
-export default PatientForm
+export default PatientForm;

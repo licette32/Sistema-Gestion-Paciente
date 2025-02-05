@@ -1,5 +1,6 @@
 import Image from "next/image"
-import { Button } from './ui/button'
+import { Button } from "@/components/ui/button";
+
 
 interface ButtonProps {
     isLoading: boolean,
@@ -9,7 +10,12 @@ interface ButtonProps {
 
 const SubmiButton = ({isLoading, className, children}: ButtonProps) => {
     return (
-        <Button type="submit" disabled={isLoading} className={className ?? 'shad-primary-btn w-full'}>{isLoading ? (
+        <Button 
+            type="submit" 
+            disabled={isLoading} 
+            className={`${className || "bg-[#BFA2DB] text-black hover:bg-[#A285C7] w-full"}`}
+        >
+            {isLoading ? (
                 <div className='flex items-center gap-4'>
                     <Image 
                         src="/assets/icons/loader.svg"
@@ -20,9 +26,10 @@ const SubmiButton = ({isLoading, className, children}: ButtonProps) => {
                     />
                     Cargando ...
                 </div>
-            ) : children}
+            ) : (children)}
         </Button>
-    )
-}
+    );
+};
 
-export default SubmiButton
+
+export default SubmiButton;

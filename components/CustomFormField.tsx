@@ -1,5 +1,7 @@
-'use client'
+'use client'  // Indico que este componente se ejecuta en el cliente y no en el servidor (Next.js).
 
+// IMPORTACIONES NECESARIAS
+import { E164Number } from "libphonenumber-js/core"; // Tipo de dato para números de teléfono en formato internacional.
 import {
   FormControl,
   FormDescription,
@@ -7,10 +9,10 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "@/components/ui/form";
-import { Input } from "@/components/ui/input";
-import { Control } from "react-hook-form";
-import { FormFieldType } from "./forms/PatientForm";
+} from "@/components/ui/form"; // Componentes reutilizables para formularios.
+import { Input } from "@/components/ui/input"; // Componente de input.
+import { Control } from "react-hook-form"; // Tipo Control de react-hook-form para manejar formularios.
+import { FormFieldType } from "./forms/PatientForm";  // Enumeración o tipo que define los tipos de campos.
 import Image from "next/image";
 import 'react-phone-number-input/style.css';
 import PhoneInput from 'react-phone-number-input';
